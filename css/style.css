@@ -1,3 +1,17 @@
+:root {
+    --primary-color: #0066FF;
+    --secondary-color: #272F3A;
+    --text-color: #414D60;
+    --text-primary-color: #002B6B;
+    --white: #fff;
+    --text-custom-color: #EDEDED;
+    --text-custom-color1: #848D9B;
+    --primary-font: "Manrope", sans-serif;
+    --secondry-font: 'General Sans', sans-serif;
+    --text-heading-color: #1E242C;
+    --nav-tab-link-color: #6C7787;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,13 +23,13 @@ html {
 }
 
 body {
-    font-family: "Manrope", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 400;
     font-style: normal;
     line-height: normal;
     font-size: 16px;
-    color: #414D60;
-    background-color: #fff;
+    color: var(--text-color);
+    background-color: var(--white);
     position: relative;
 }
 
@@ -25,11 +39,15 @@ a {
 
 h1,
 h2 {
-    font-family: 'General Sans', sans-serif;
+    font-family: var(--secondry-font);
 }
 
 .container {
     max-width: 86%;
+}
+
+.pBlock-90 {
+    padding-block: 90px;
 }
 
 /* header Css Start */
@@ -44,7 +62,7 @@ header {
 .nav-link {
     padding: 0px 0px !important;
     font-size: 16px;
-    color: #272F3A;
+    color: var(--secondary-color);
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -54,7 +72,7 @@ header ul.navbar-nav {
 }
 
 .custum-btn {
-    color: #fff;
+    color: var(--white);
     font-weight: 600;
     font-size: 17px;
     display: inline-flex;
@@ -62,7 +80,7 @@ header ul.navbar-nav {
     gap: 0px 16px;
     padding: 4px 4px 4px 24px;
     line-height: 29px;
-    border: 1px solid #fff;
+    border: 1px solid var(--white);
     border-radius: 30px;
 }
 
@@ -73,8 +91,8 @@ span.icon {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #fff;
-    color: #0066FF;
+    background-color: var(--white);
+    color: var(--primary-color);
     transform: rotate(145deg);
 }
 
@@ -85,11 +103,15 @@ span.icon svg {
 
 span.icon svg,
 span.icon svg path {
-    fill: #0066FF;
+    fill: var(--primary-color);
 }
 
 .navbar-brand img {
     height: 17px;
+}
+
+header nav.navbar {
+    padding-block: 37px;
 }
 
 /* Header Css End */
@@ -97,8 +119,316 @@ span.icon svg path {
 /* Banner-wrapper css start */
 .banner-wraaper {
     background-image: url(../images/hero-bg.png);
-    height: 800px;
+    height: auto;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    padding-top: 150px;
+}
+
+.banner-heading span {
+    font-weight: 400;
+    color: var(--text-primary-color);
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0px 8px;
+    background: #fff;
+    padding: 10px 26px;
+    margin-bottom: 16px;
+    border-radius: 25px;
+}
+
+.banner-heading h1 {
+    font-family: var(--secondry-font);
+    font-weight: 500;
+    font-size: 84px;
+    color: var(--text-primary-color);
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.banner-heading p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 37px;
+    color: var(--text-color);
+}
+
+.banner-search-box {
+    height: 56px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-btn-box {
+    width: 150px;
+    flex: 0 0 auto;
+}
+
+.search-list {
+    width: calc(100% - 150px);
+    padding-right: 8px;
+    flex: 0 0 auto;
+}
+
+.search-btn {
+    background: #0066FF;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white);
+    border: 0px;
+}
+
+.search-list ul {
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 16px 0px;
+    border: 1px solid var(--text-custom-color1);
+}
+
+.search-list ul li {
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.search-list ul li:nth-child(1) {
+    padding-inline: 16px;
+}
+
+.search-list ul li:nth-child(2) {
+    padding-left: 16px;
+}
+
+.search-list ul li+li {
+    border-left: 1px solid var(--text-custom-color);
+}
+
+.search-list ul li .input-group {
+    background-color: transparent;
+    border: 0px !important;
+    align-items: center;
+    color: var(--text-primary-color);
+}
+
+.search-list ul li .input-group span.input-group-icon,
+.search-list ul li .input-group span.input-group-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.search-list ul li .input-group input {
+    border: 0px;
+    height: 24px;
+    width: calc(100% - 24px);
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-primary-color);
+}
+
+.search-list ul li .input-group input:focus {
+    border: 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+.search-list ul li .input-group input::placeholder {
+    color: var(--text-custom-color1);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+form:has(.banner-search-box) {
+    margin-bottom: 50px;
+}
+
+.banner-strip-cover .slick-slide {
+    margin: 0 12px;
+}
+
+.strip-profile img {
+    width: 100%;
+}
+
+/* Banner-wrapper css End */
+
+
+/* discover-wrapper Css Start */
+.section-heading h2 {
+    font-weight: 500;
+    font-size: 56px;
+    color: var(--text-heading-color);
+    margin-bottom: 16px;
+}
+
+.section-heading p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.discover-wrapper>.container>.row {
+    gap: 40px 0px;
+}
+
+.discover-tab ul.nav {
+    justify-content: space-between;
+    border-bottom: 1px solid var(--text-custom-color1);
+}
+
+.discover-tab ul.nav li button {
+    padding: 15px 30px !important;
+}
+
+.discover-tab ul.nav li button {
+    padding: 15px 30px !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 0px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--nav-tab-link-color);
+}
+
+.discover-tab ul.nav li button span {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover-tab ul.nav li button span svg {
+    width: 100%;
+    height: 100%;
+    stroke: var(--nav-tab-link-color);
+}
+
+.discover-tab ul.nav li button span svg path {
+    stroke: var(--nav-tab-link-color);
+}
+
+.discover-tab ul.nav li button.active {
+    border: 0px !important;
+    border-radius: 0px !important;
+    background: linear-gradient(to bottom, #ffffff 0%, #e6f0ff 100%);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.discover-tab ul.nav li button:hover {
+    border: 0px !important;
+    isolation: initial !important;
+}
+
+.discover-tab ul.nav li button.active span svg path {
+    stroke: var(--primary-color);
+}
+
+.discover-cover .tab-content {
+    margin-top: 40px;
+}
+
+.discover-content-box {
+    background-color: #fff;
+    padding: 25px 25px;
+    border-radius: 20px;
+    border: 1px solid var(--text-custom-color1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.discover-tab-content .row {
+    gap: 24px 0px;
+    margin-inline: -12px;
+}
+
+.discover-tab-content .row .col-12 {
+    padding-inline: 12px;
+}
+
+.discover-content-profile {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.discover-content-profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.discover-content-profile.online::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #65C18C;
+    position: absolute;
+    right: 0px;
+    bottom: 6px;
+}
+
+.discover-content-rating {
+    display: flex;
+    align-items: center;
+    gap: 0px 11px;
+    margin-bottom: 7px;
+}
+
+.discover-profile-content h3 {
+    font-weight: 500 !important;
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.discover-profile-content p {
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.discover-profile-content ul {
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 5px;
+}
+
+.discover-profile-content ul li p {
+    padding: 5px 12px;
+    border-radius: 25px;
+    margin-bottom: 0px;
+    border: 1px solid var(--text-custom-color1);
+}
+
+.customBtn {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.customBtn span.icon {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.view-all-btn-box {
+    display: flex;
+    justify-content: center;
 }
