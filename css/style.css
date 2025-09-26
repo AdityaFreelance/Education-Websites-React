@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #414D60;
+    background-color: #fff;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: 'General Sans', sans-serif;
+}
+
+.container {
+    max-width: 86%;
+}
+
+/* header Css Start */
+header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    left: 0px;
+}
+
+.nav-link {
+    padding: 0px 0px !important;
+    font-size: 16px;
+    color: #272F3A;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+header ul.navbar-nav {
+    gap: 0px 40px;
+}
+
+.custum-btn {
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0px 16px;
+    padding: 4px 4px 4px 24px;
+    line-height: 29px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+
+span.icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #0066FF;
+    transform: rotate(145deg);
+}
+
+span.icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+span.icon svg,
+span.icon svg path {
+    fill: #0066FF;
+}
+
+.navbar-brand img {
+    height: 17px;
+}
+
+/* Header Css End */
+
+/* Banner-wrapper css start */
+.banner-wraaper {
+    background-image: url(../images/hero-bg.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
