@@ -1,0 +1,134 @@
+{
+  "header": {
+    "logo": "/images/logo.png",
+    "navLinks": [
+      "Create Resume",
+      "Skillset",
+      "Partnered Job Board",
+      "Contact Us"
+    ],
+    "buttonText": "Register Now"
+  },
+  "banner": {
+    "title": "Showcase your mastery. get connected",
+    "subtitle": "Your #1 Platform for Skill Sharing",
+    "description": "Create your profile, showcase your skills, and let <br> employers find you.",
+    "searchPlaceholder1": "e.g. UX Designer",
+    "searchPlaceholder2": "e.g. Liverpool, USA",
+    "searchButtonText": "Search",
+    "sliderImages": [
+      "/images/strip-profile1.png",
+      "/images/strip-profile2.png",
+      "/images/strip-profile3.png",
+      "/images/strip-profile4.png",
+      "/images/strip-profile1.png",
+      "/images/strip-profile2.png"
+    ]
+  },
+  "discover": {
+    "title": "Discover the <br> Emerging Masters",
+    "description": "Find the best master for your company and boosts <br> your business 10x!",
+    "tabs": [
+      {
+        "title": "Developer",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='19' height='18' viewBox='0 0 19 18' fill='none'><path d='M1.64285 3C1.64285 1.89543 2.53828 1 3.64285 1H5.64285C6.74742 1 7.64285 1.89543 7.64285 3V5C7.64285 6.10457 6.74742 7 5.64285 7H3.64285C2.53828 7 1.64285 6.10457 1.64285 5V3Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /><path d='M11.6429 3C11.6429 1.89543 12.5383 1 13.6429 1H15.6429C16.7474 1 17.6429 1.89543 17.6429 3V5C17.6429 6.10457 16.7474 7 15.6429 7H13.6429C12.5383 7 11.6429 6.10457 11.6429 5V3Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /><path d='M1.64285 13C1.64285 11.8954 2.53828 11 3.64285 11H5.64285C6.74742 11 7.64285 11.8954 7.64285 13V15C7.64285 16.1046 6.74742 17 5.64285 17H3.64285C2.53828 17 1.64285 16.1046 1.64285 15V13Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /><path d='M11.6429 13C11.6429 11.8954 12.5383 11 13.6429 11H15.6429C16.7474 11 17.6429 11.8954 17.6429 13V15C17.6429 16.1046 16.7474 17 15.6429 17H13.6429C12.5383 17 11.6429 16.1046 11.6429 15V13Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /></svg>",
+        "content": [
+          {
+            "image": "/images/profile1.png",
+            "name": "Zrand Hobs",
+            "role": "Developer",
+            "rating": "4.8 (6)",
+            "skills": ["Gimp", "Wordpress"],
+            "online": true
+          },
+          {
+            "image": "/images/profile2.png",
+            "name": "Dorothy Wood",
+            "role": "Teacher",
+            "rating": "4.8 (6)",
+            "skills": ["Elementor", "Wix", "Illustrator"],
+            "online": false
+          },
+          {
+            "image": "/images/profile3.png",
+            "name": "Timothy Baker",
+            "role": "Teacher",
+            "rating": "4.8 (6)",
+            "skills": ["Figma", "Elementor", "Wordpress"],
+            "online": true
+          },
+          {
+            "image": "/images/profile4.png",
+            "name": "Shane Pratt",
+            "role": "Developer",
+            "rating": "4.8 (6)",
+            "skills": ["Figma", "Wordpress", "Gimp"],
+            "online": true
+          },
+          {
+            "image": "/images/profile5.png",
+            "name": "Frances Washing",
+            "role": "Developer",
+            "rating": "4.8 (6)",
+            "skills": ["Wordpress", "Wix", "Illustrator"],
+            "online": false
+          },
+          {
+            "image": "/images/profile6.png",
+            "name": "Jason Bell",
+            "role": "Web Designer",
+            "rating": "4.8 (6)",
+            "skills": ["Elementor", "Wordpress"],
+            "online": true
+          },
+          {
+            "image": "/images/profile7.png",
+            "name": "Kathryn Sanchez",
+            "role": "Teacher",
+            "rating": "4.8 (6)",
+            "skills": ["Framer", "Webflow", "Wix"],
+            "online": false
+          },
+          {
+            "image": "/images/profile8.png",
+            "name": "Jaime Strickland",
+            "role": "Web Designer",
+            "rating": "4.8 (6)",
+            "skills": ["Gimp", "Figma", "Webflow"],
+            "online": false
+          }
+        ]
+      },
+      {
+        "title": "UI Designer",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='19' height='18' viewBox='0 0 19 18' fill='none'><path d='M1.42856 2C1.42856 1.44772 1.87627 1 2.42856 1H16.4286C16.9808 1 17.4286 1.44772 17.4286 2V4C17.4286 4.55228 16.9808 5 16.4286 5H2.42856C1.87627 5 1.42856 4.55228 1.42856 4V2Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /><path d='M1.42856 10C1.42856 9.44772 1.87627 9 2.42856 9H8.42856C8.98084 9 9.42856 9.44772 9.42856 10V16C9.42856 16.5523 8.98084 17 8.42856 17H2.42856C1.87627 17 1.42856 16.5523 1.42856 16V10Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /><path d='M13.4286 10C13.4286 9.44772 13.8763 9 14.4286 9H16.4286C16.9808 9 17.4286 9.44772 17.4286 10V16C17.4286 16.5523 16.9808 17 16.4286 17H14.4286C13.8763 17 13.4286 16.5523 13.4286 16V10Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /></svg>",
+        "content": []
+      },
+      {
+        "title": "Project Manager",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='19' height='18' viewBox='0 0 19 18' fill='none'><path d='M13.7143 5V13M9.71429 8V13M5.71429 11V13M3.71429 17H15.7143C16.8189 17 17.7143 16.1046 17.7143 15V3C17.7143 1.89543 16.8189 1 15.7143 1H3.71429C2.60972 1 1.71429 1.89543 1.71429 3V15C1.71429 16.1046 2.60972 17 3.71429 17Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /></svg>",
+        "content": []
+      },
+      {
+        "title": "Designer",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20' fill='none'><path d='M3.50006 1V5M1.50006 3H5.50006M4.50006 15V19M2.50006 17H6.50006M11.5001 1L13.7858 7.85714L19.5001 10L13.7858 12.1429L11.5001 19L9.21435 12.1429L3.50006 10L9.21435 7.85714L11.5001 1Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /></svg>",
+        "content": []
+      },
+      {
+        "title": "Accountant",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20' fill='none'><path d='M12.3179 7.49153C12.5894 7.80439 13.0631 7.83794 13.376 7.56648C13.6888 7.29501 13.7224 6.82132 13.4509 6.50847L12.8844 7L12.3179 7.49153ZM8.25361 12.5085C7.98214 12.1956 7.50846 12.1621 7.1956 12.4335C6.88274 12.705 6.84919 13.1787 7.12066 13.4915L7.68713 13L8.25361 12.5085ZM11.0358 5C11.0358 4.58579 10.7 4.25 10.2858 4.25C9.87155 4.25 9.53577 4.58579 9.53577 5H10.2858H11.0358ZM9.53577 15C9.53576 15.4142 9.87154 15.75 10.2858 15.75C10.7 15.75 11.0358 15.4142 11.0358 15L10.2858 15L9.53577 15ZM19.2858 10H18.5358C18.5358 14.5563 14.8421 18.25 10.2858 18.25V19V19.75C15.6705 19.75 20.0358 15.3848 20.0358 10H19.2858ZM10.2858 19V18.25C5.72942 18.25 2.03577 14.5563 2.03577 10H1.28577H0.535767C0.535767 15.3848 4.90099 19.75 10.2858 19.75V19ZM1.28577 10H2.03577C2.03577 5.44365 5.72942 1.75 10.2858 1.75V1V0.25C4.90099 0.25 0.535767 4.61522 0.535767 10H1.28577ZM10.2858 1V1.75C14.8421 1.75 18.5358 5.44365 18.5358 10H19.2858H20.0358C20.0358 4.61522 15.6705 0.25 10.2858 0.25V1ZM10.2858 10V9.25C9.58476 9.25 8.98403 9.05922 8.58047 8.79018C8.17167 8.51764 8.03577 8.2235 8.03577 8H7.28577H6.53577C6.53577 8.88107 7.07144 9.58693 7.74842 10.0383C8.43064 10.4931 9.32992 10.75 10.2858 10.75V10ZM7.28577 8H8.03577C8.03577 7.7765 8.17167 7.48236 8.58047 7.20982C8.98403 6.94078 9.58476 6.75 10.2858 6.75V6V5.25C9.32992 5.25 8.43064 5.50693 7.74842 5.96175C7.07144 6.41307 6.53577 7.11893 6.53577 8H7.28577ZM10.2858 6V6.75C11.2412 6.75 11.978 7.09978 12.3179 7.49153L12.8844 7L13.4509 6.50847C12.7534 5.70461 11.5512 5.25 10.2858 5.25V6ZM10.2858 10V10.75C10.9868 10.75 11.5875 10.9408 11.9911 11.2098C12.3999 11.4824 12.5358 11.7765 12.5358 12H13.2858H14.0358C14.0358 11.1189 13.5001 10.4131 12.8231 9.96175C12.1409 9.50693 11.2416 9.25 10.2858 9.25V10ZM10.2858 5H9.53577V6H10.2858H11.0358V5H10.2858ZM10.2858 14L9.53579 14L9.53577 15L10.2858 15L11.0358 15L11.0358 14L10.2858 14ZM10.2858 14L10.2858 13.25C9.33035 13.25 8.59353 12.9002 8.25361 12.5085L7.68713 13L7.12066 13.4915C7.81814 14.2954 9.02033 14.75 10.2858 14.75V14Z' fill='#6C7787' /></svg>",
+        "content": []
+      },
+      {
+        "title": "Human Resource",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'><path d='M16.0715 7V10M16.0715 10V13M16.0715 10H19.0715M16.0715 10H13.0715M11.0715 5C11.0715 7.20914 9.28061 9 7.07147 9C4.86233 9 3.07147 7.20914 3.07147 5C3.07147 2.79086 4.86233 1 7.07147 1C9.28061 1 11.0715 2.79086 11.0715 5ZM1.07147 18C1.07147 14.6863 3.75776 12 7.07147 12C10.3852 12 13.0715 14.6863 13.0715 18V19H1.07147V18Z' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /></svg>",
+        "content": []
+      },
+      {
+        "title": "Marketing",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='25' height='24' viewBox='0 0 25 24' fill='none'><path d='M19.3572 11H5.35718M19.3572 11C20.4617 11 21.3572 11.8954 21.3572 13V19C21.3572 20.1046 20.4617 21 19.3572 21H5.35718C4.25261 21 3.35718 20.1046 3.35718 19V13C3.35718 11.8954 4.25261 11 5.35718 11M19.3572 11V9C19.3572 7.89543 18.4617 7 17.3572 7M5.35718 11V9C5.35718 7.89543 6.25261 7 7.35718 7M7.35718 7V5C7.35718 3.89543 8.25261 3 9.35718 3H15.3572C16.4617 3 17.3572 3.89543 17.3572 5V7M7.35718 7H17.3572' stroke='#6C7787' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' /></svg>",
+        "content": []
+      }
+    ]
+  }
+}
